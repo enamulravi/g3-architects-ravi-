@@ -63,7 +63,7 @@ button {
 }
 
 /* header style:image section */
-img {
+.banner {
     margin-top: 40px;
     margin-left: 40px;
 }
@@ -88,20 +88,23 @@ img {
     margin-top: 300px;
     margin-left: 0px;
 }
-.orange1{
+
+.orange1 {
     font-family: 'Work Sans';
     font-weight: 700px;
     color: black;
 }
+
 .team-text-tittle {
     font-size: 50px;
     font-family: 'Work Sans', sans-serif;
 }
 
 /* feature-section-style */
-.orange{
+.orange {
     color: #FF900E;
 }
+
 .feature-section {
     margin-top: 150px;
     margin-left: 120px;
@@ -155,7 +158,8 @@ img {
 }
 
 .icons {
-    margin: none;
+    margin-top: 20px;
+    margin-left: 45px;
     padding: 10px 55px;
 }
 
@@ -181,11 +185,11 @@ img {
 
 /* sponser styles */
 
-.sponser{
+.sponser {
     margin-top: 180px;
 }
 
-.sponsors{
+.sponsors {
     display: flex;
     justify-content: center;
     gap: 100px;
@@ -195,17 +199,100 @@ img {
 
 /* footer styles */
 
-footer{
+footer {
     background: #FFF4E7;
-border-radius: 8px;
-padding: 20px;
-margin-left: 160px;
-margin-right: 160px;
-text-align: center;
-color: #424242;
+    border-radius: 8px;
+    padding: 20px;
+    margin-left: 160px;
+    margin-right: 160px;
+    text-align: center;
+    color: #424242;
 }
 
-.social{
+.social {
     font-size: 25px;
     color: black;
+}
+
+@media screen and (max-width:576px) {
+    header {
+        Fill: Solid;
+        background-color: rgba(255, 144, 14, 0.1);
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 60px;
+    }
+
+    .top-section {
+        display: grid;
+    }
+     .banner img{
+        width: 100%;
+     }
+    .banner {
+        
+
+        margin-top: 40px;
+        margin-left: 0px;
+
+
+    }
+
+    nav ul {
+        list-style: none;
+        display: grid;
+        gap: 30px;
+    }
+    .team-section{
+        display: grid;
+        gap: none;
+    }
+    .team-images {
+        display: grid;
+        grid-template-columns: repeat(1, 0fr);
+        padding-left: 20px;
+    
+        margin-top: 50px;
+    
+    }
+    .team-text{
+       margin-top: 0px;
+       margin-left: 10px;
+    }
+    .feature-section{
+        margin-top: 70px;
+        margin-left: 20px;
+        display: grid;
+    }
+    .facts-boxs{
+        flex-direction: column;
+        padding-left: 70px;
+        gap: 30px;
+    }
+    .icons{
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    .feature-text{
+        width: 100%;
+    }
+    .architect img{
+        width: 100%;
+    }
+    .sponsors{
+        display: grid;
+    }
+    .facts{
+        margin: 10px 10px;
+    }
+    footer {
+        background: #FFF4E7;
+        border-radius: 8px;
+        padding: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+        color: #424242;
+    }
 }
