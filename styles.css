@@ -1,0 +1,211 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Work+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header style */
+header {
+    Fill: Solid;
+    background-color: rgba(255, 144, 14, 0.1);
+    padding-top: 5px;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-bottom: 60px;
+}
+
+/* header style: top section  */
+h2 {
+    margin-right: 950px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.top-section {
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+/* header style: brand section  */
+.brand {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+button {
+    margin-top: 15px;
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background: #FF900E;
+    border: none;
+    border-radius: 8px;
+}
+
+/* header style:image section */
+img {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+/* team-section ---- */
+.team-section {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.team-images {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    padding-left: 10px;
+
+    margin-top: 50px;
+
+}
+
+.team-text {
+    margin-top: 300px;
+    margin-left: 0px;
+}
+.orange1{
+    font-family: 'Work Sans';
+    font-weight: 700px;
+    color: black;
+}
+.team-text-tittle {
+    font-size: 50px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* feature-section-style */
+.orange{
+    color: #FF900E;
+}
+.feature-section {
+    margin-top: 150px;
+    margin-left: 120px;
+    display: flex;
+}
+
+.feature-box {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px 42px;
+    margin: 20px;
+}
+
+.feature-text {
+
+    width: 50%;
+}
+
+.button1 {
+    margin-top: -100px;
+    width: 342px;
+    height: 200px;
+
+    font-weight: 600;
+    font-size: 50px;
+    color: white;
+    background: #FF900E;
+    border: none;
+    border-radius: 8px;
+}
+
+/* facts styles */
+.facts {
+    margin: 110px 160px;
+}
+
+.facts-boxs {
+    display: flex;
+    justify-content: center;
+    gap: 125px;
+}
+
+.facts-box {
+    border: 1px solid #FF900E;
+    width: 241.83px;
+    height: 241.83px;
+    border-radius: 8px;
+    align-items: center;
+
+}
+
+.icons {
+    margin: none;
+    padding: 10px 55px;
+}
+
+.facts-text {
+    text-align: center;
+    margin: -50px;
+}
+
+.facts-tittle {
+    font-weight: 600;
+    font-size: 45px;
+    font-family: 'Work Sans';
+    margin: none;
+    color: #424242;
+}
+
+.facts-des {
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    margin: -40px;
+}
+
+/* sponser styles */
+
+.sponser{
+    margin-top: 180px;
+}
+
+.sponsors{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+
+
+/* footer styles */
+
+footer{
+    background: #FFF4E7;
+border-radius: 8px;
+padding: 20px;
+margin-left: 160px;
+margin-right: 160px;
+text-align: center;
+color: #424242;
+}
+
+.social{
+    font-size: 25px;
+    color: black;
+}
